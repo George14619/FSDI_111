@@ -11,4 +11,4 @@ def profile():                                 # A wrapped function is a "view f
         "hobbies": "Drawing/Painting",
         "is_online": True
     }
-    return me                                  # Returning a dict from a view function converts it to JSON!
+    return me                                  # Returning a dict from a view function converts it to JSON!git init
