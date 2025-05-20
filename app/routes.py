@@ -1,5 +1,5 @@
 from flask import Flask                        # From the flask package and module import the flask class
-
+# OOP - Object Oriented Paradigm
 app = Flask(__name__)                          # Create an instance of the flask class
 
 
@@ -12,3 +12,6 @@ def profile():                                 # A wrapped function is a "view f
         "is_online": True
     }
     return me                                  # Returning a dict from a view function converts it to JSON!git init
+
+                                               # x = profile     <---- reference
+                                               # x = profile()   <---- Call
